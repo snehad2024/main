@@ -1,0 +1,74 @@
+Why and What Version Control System:-
+         Problems may rise
+              ->Collaboration
+              ->Storing Versions
+              ->Restoring Previous Version
+              ->Figuring out What Happened
+              ->Back Up
+
+Version Control System:-
+                        It is a s/w tool that changes to a file or set of files over time so that you can recall specific versions later.
+->Allows u to work together with other programmers simultaniously.
+->helps to team to manage changes in a source code.
+->special kind of database to keep track of every modification to the code.
+*********it is a tool for tracking & managing changes to s/w code.*********
+->Source code management & revision control system.
+
+Types:-
+
+1.Local Version Control System.
+2.Centralized Version System.
+3.Distributed Version Control System.(currently all compaines are using DVCS)
+
+1.Local Version Control System:-
+
+                               It is a local database located on ur local Computer , in which every file change is stored as a patch.
+-> Every patch contains only the changes made to the files since its last version.
+-> In order to see what the file looked like at any given moment,it is necessary to add up all the relevant patches to the file in order until that given moment.
+
+Disadvantage:
+             All the data will be stored only in one local server,if that server got crash enitre data will be lost.
+-> If anything were to happenes to a single,all the chages made after that version would be lost.
+
+2.Centralized Version System:-
+
+                             It has a single server that contains all the file versions.
+-> allows for easy collabration with other developers .
+-> Administrators have control over  who can do what.
+
+3.Distributed Version Control System:-
+
+                                    Everyone collaborating on a project owns a local copy of the whole project i.e; owns their own local db with their own complete history.With this model,if the server becomes unavailable,any of the client repositories can send a copy of the project's version to any other client/back onto the server when it becomes available.
+
+-> It is enough that one client a correct copy which can then easily be further distributed.
+-> eg:- GIT HUB.
+
+Best VCS:-
+
+->Git VCS(Git hub)
+->Git Lab
+->perforce
+->Beanstalk
+->AWS code commit
+->Apacha Subversion
+->Mercurial
+->Bitbucket.
+
+--->Git VCS:-
+           commit(save)
+           branchings
+           pull Request(merge)
+           conflicts(errors)
+           delete
+           uploading
+
+
+
+
+
+
+                                     
+
+
+                               
+                               
